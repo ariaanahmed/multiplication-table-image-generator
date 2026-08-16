@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Generator</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="full-table">
+            <h2 style="color: rgb(65, 64, 64);">Multiplication Table Generator</h2>
+
+            <div class="button-container">
+                <div class="table-gen-btn">
+                    <label for="">Enter Number</label>
+                    <input type="number" placeholder="e.g. 7" value="7" id="table-gen-box" min="1">
+                    <button class="table-generate-btn" id="table-gen-btn">Generate Table</button>
+                </div>
+
+                <div class="table-gen-btn">
+                    <label for="">Enter range</label>
+                    <input type="number" placeholder="e.g. 10" value="10" id="range-box" min="10">
+                    <button class="download-img-btn" id="add-range-btn">Download Image</button>
+                </div>
+            </div>
+
+            <div class="periodic-table">
+                <h3 style="text-align: center; padding: 10px 0;">Mulitplication Table of <span id="tableNumber">7</span></h3>
+                <table class="table-design" id="completeTable">
+                    <thead>
+                        <tr>
+                            <th>Number</th>
+                            <th>x</th>
+                            <th>Multiplier</th>
+                            <th>=</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>1</td>
+                            <td>=</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>2</td>
+                            <td>=</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>3</td>
+                            <td>=</td>
+                            <td>21</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>4</td>
+                            <td>=</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>5</td>
+                            <td>=</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>6</td>
+                            <td>=</td>
+                            <td>42</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>7</td>
+                            <td>=</td>
+                            <td>49</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>8</td>
+                            <td>=</td>
+                            <td>56</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>9</td>
+                            <td>=</td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>x</td>
+                            <td>10</td>
+                            <td>=</td>
+                            <td>70</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </main>
+    <footer style="text-align: center; background-color: #eee; padding: 20px 0; margin-top: 20px; font-family: roboto;">Copyright <i class="fa-regular fa-copyright"></i> All Rights Reserved</footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
