@@ -14,23 +14,39 @@ Set a custom multiplication range.
 Dynamically update the table using JavaScript.
 
 Download the generated table as a PNG image.
+
 High-quality image export using html2canvas.
+
 Clean and simple user interface.
+
 Responsive table layout.
+
 Uses Google Fonts and Font Awesome.
+
 Technologies Used
 
 HTML5 — Website structure
+
 CSS3 — Styling and layout
+
 JavaScript — Table generation and functionality
+
 html2canvas — Convert the table into an image
+
 Google Fonts — Roboto font
+
 Font Awesome — Icons
+
 How It Works
+
 Enter the number for which you want to generate the multiplication table.
+
 Enter the range up to which the table should be generated.
+
 Click Generate Table.
+
 The table will be generated dynamically.
+
 Click Download Image to save the table as a PNG image.
 
 Example
@@ -80,22 +96,19 @@ Google Fonts for the Roboto font.
 These libraries are loaded through CDN links in the HTML file.
 
 Browser Support
-The project works in modern browsers such as:
-Google Chrome
-Mozilla Firefox
-Microsoft Edge
-Safari
-Future Improvements
 
-Some possible improvements for future versions:
-Add dark mode.
-Add more customization options for the table.
-Allow users to select image formats.
-Add PDF download support.
-Add different table styles and colors.
-Improve mobile responsiveness.
+The project works in modern browsers such as:
+
+Google Chrome
+
+Mozilla Firefox
+
+Microsoft Edge
+
+Safari
 
 License
+
 This project is open source and available for personal and educational use.
 
 Built with HTML, CSS & JavaScript ❤️
