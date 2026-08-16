@@ -8,14 +8,18 @@ The project allows users to enter a number and a range, dynamically generates it
 
 Features
 Generate a multiplication table for any number.
+
 Set a custom multiplication range.
+
 Dynamically update the table using JavaScript.
+
 Download the generated table as a PNG image.
 High-quality image export using html2canvas.
 Clean and simple user interface.
 Responsive table layout.
 Uses Google Fonts and Font Awesome.
 Technologies Used
+
 HTML5 — Website structure
 CSS3 — Styling and layout
 JavaScript — Table generation and functionality
